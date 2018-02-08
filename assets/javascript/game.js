@@ -48,7 +48,10 @@ pseudo code for this module
   alphaIdx = getAlphaIdx();
   console.log("P random index : " + alphaIdx + " alpha char: " + alphaStr[alphaIdx]);
 
-  document.onkeyup = function (event) {
+  document.addEventListener('keypress', (event) => {
+    const keyName = event.key;
+  
+    console.log('keypress event\n\n' + 'key: ' + keyName);
 
     /* Reset, after first game */
     /*  occurs on first key press after win or loss */
@@ -90,5 +93,5 @@ pseudo code for this module
 
       console.log(" wins: " + wins + " losses: " + losses);
 
-  };
+  });
 
