@@ -1,3 +1,5 @@
 # Psychic-Game
-### A letter is selected at random by the game and the user has 9 tries to guess it correctly
-### Assignment 3, GWU full stack program, used html, js, bootstrap & css.
+
+### Assignment 3, GWU full stack program, using html, js, bootstrap & css.
+
+A letter is selected at random by the game and the user has 9 tries to guess it correctly
